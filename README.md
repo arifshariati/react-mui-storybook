@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# React Material UI Storybook
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Thousands of developers around the globe use React and Material UI. Each developer customize Material UI components making compount components based on their project requirement. However, It is quite possible that your customized components might be re-usable for another developer.
 
-## Available Scripts
+Github Pages is setup [Here](https://arifshariati.github.io/react-mui-storybook/){:target="_blank"}
+# Motivation 
 
-In the project directory, you can run:
+On daily basis, we write several components and then we forget it. In another case, we might write customize component which can be used by another developer too. This repo aims to bring about my daily works together so every one can review, customize and re-use the compnent. This greatly save development time and brings variety in thought process while writing components for React.
 
-### `yarn start`
+# Guideline 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If you want to collaborate on this repo, go on cloning the repo and checkout to your branch. Upon completing your component, create pull request so me and other developers can review your code. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Once your code is reviewed and approved, it will be part of the main branch in this repository and that's it. 
 
-### `yarn test`
+Few things you have to consider while writing your componenet. Components directory contains all components seperated by;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    1. Atomic : individual stand alone components (as an example MUIButton component with additional param rounded).
+    2. Compound: Collection of stand alone components should be kept in compount directory.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Moreover, Each new component should have its own folder and index.js file. To keep things clear, write your stories inside your component folder itself.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Following above guideline, will make life easy for developers in viewing or using code base for their own projects. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Get Started 
 
-### `yarn eject`
+clone the repository and navigate to react-mui-storybook directory and run;
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm install & npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> **_NOTE:_** i have removed react-scripts from the proejct as sole aim of the repository is to write components and preview in storybook. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Let's code together for making development of components easy and re-usable for all.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Cheers !! 

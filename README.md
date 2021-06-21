@@ -35,4 +35,8 @@ npm install & npm start
 
 Let's code together for making development of components easy and re-usable for all.
 
+## Update 
+
+    1. PaperStat : PaperStat component is added under Components/Compount
+
 Cheers !! 🥂

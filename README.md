@@ -2,7 +2,7 @@
 
 Thousands of developers around the globe use React and Material UI. Each developer customize Material UI components making compount components based on their project requirement. However, It is quite possible that your customized components might be re-usable for another developer.
 
-Github Pages is setup [Here](https://arifshariati.github.io/react-mui-storybook/) 🔗
+Github Pages is setup [Here](https://react-mui-storybook.netlify.app/) 🔗
 # Motivation ✨ ✨
 
 On daily basis, we write several components and then we forget it. In another case, we might write customize component which can be used by another developer too. This repo aims to bring about my daily works together so every one can review, customize and re-use the compnent. This greatly save development time and brings variety in thought process while writing components for React.
@@ -37,6 +37,7 @@ Let's code together for making development of components easy and re-usable for 
 
 ## Update 
 
-    1. PaperStat : PaperStat component is added under Components/Compount
+    1. CVHeader : CVHeader component is added under Components/Compound
+    2. PaperStat : PaperStat component is added under Components/Compound
 
 Cheers !! 🥂

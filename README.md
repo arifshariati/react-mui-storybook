@@ -37,7 +37,8 @@ Let's code together for making development of components easy and re-usable for 
 
 ## Update 
 
-    1. CVHeader : CVHeader component is added under Components/Compound
-    2. PaperStat : PaperStat component is added under Components/Compound
+    1. CustomAvatar : CustomAvatar component is added under Components/Atomic
+    2. CVHeader : CVHeader component is added under Components/Compound
+    3. PaperStat : PaperStat component is added under Components/Compound
 
 Cheers !! 🥂
